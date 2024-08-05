@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+
+    <body class="bg-gray-500 text-black-600 flex justify-center items-center h-screen ">
+
+
+        <div class="flex items-center justify-center mb-4">
+                    <div class=" class="mb-8">
+                <div class="bg-brown-400 text-black  text-center  px-2 py-4 rounded-xl  mb-4 text-lg">
+                    <h1 class="font-extrabold ">Rock, Paper, Scissors</h1>
+                  </div>
+
+
+         <div class="flex items-center justify-center mb-4  border ml-60 mr-60 py-3 rounded-3xl">
+        <div class="p-10 items-center">
+         <p class="font-bold" > Choose your move:</p>
+         <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-500" onclick="playRound('rock')">Rock</button>
+    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-500" onclick="playRound('paper')">Paper</button>
+    <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-500" onclick="playRound('scissors')">Scissors</button>
+    <h2 id="result"></h2>
+    <p id="score"></p>
+   <button class="button" onclick="resetGame()">Quit</button>
+    </div>
+    </div>
+
+    <footer class="bg-indigo-400 hover:underline text-black text-center py-4">
+     <a class="font-extrabold" href="https://github.com/marfooa-ismail/R-P-S-Game.git" target="_blank">Marfowa kianat</a>
+    </footer>
+
+    <script  src="game.js" ></script> 
+
+</body>
+</html>
